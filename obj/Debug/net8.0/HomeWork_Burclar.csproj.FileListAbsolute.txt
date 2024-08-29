@@ -1,0 +1,14 @@
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\bin\Debug\net8.0\HomeWork_Burclar.exe
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\bin\Debug\net8.0\HomeWork_Burclar.deps.json
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\bin\Debug\net8.0\HomeWork_Burclar.runtimeconfig.json
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\bin\Debug\net8.0\HomeWork_Burclar.dll
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\bin\Debug\net8.0\HomeWork_Burclar.pdb
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.AssemblyInfo.cs
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.dll
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\refint\HomeWork_Burclar.dll
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.pdb
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\HomeWork_Burclar.genruntimeconfig.cache
+C:\Users\Administrator\Documents\GitHub\HomeWork_Burclar\obj\Debug\net8.0\ref\HomeWork_Burclar.dll
