@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeWork_Burclar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba4578d013c341a157618c09ad72ef0e1763c856")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeWork_Burclar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeWork_Burclar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

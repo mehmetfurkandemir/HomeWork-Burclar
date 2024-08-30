@@ -1,4 +1,6 @@
-﻿namespace HomeWork_Burclar;
+﻿using System.Runtime.InteropServices;
+
+namespace HomeWork_Burclar;
 
 class Program
 {
@@ -9,38 +11,41 @@ class Program
                 Console.Write("Doğum gününüz: ");
                 int gun = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("Doğum ayınız: ");
-                int ay = int.Parse(Console.ReadLine());
+                Console.Write("Doğum ayınız: ");
 
                 string burc = "";
-
-                if ((ay == 1 && gun >= 22) || (ay == 2 && gun <= 19))
+                string ay = Console.ReadLine().ToLower(); //Konsoldan alınan input, lower case'e çevrilir.
+                Console.Write($"{ay}"); //String interpolation
+            
+                if ((ay == "ocak" && gun >= 22) || (ay == "şubat" && gun <= 19))
                 burc = "Kova";
-                else if ((ay == 2 && gun >= 20) || (ay == 3 && gun <= 20))
+                else if ((ay == "şubat" && gun >= 20) || (ay == "mart" && gun <= 20))
                 burc = "Balık";
-                else if ((ay == 3 && gun >= 21) || (ay == 4 && gun <= 20))
+                else if ((ay == "mart" && gun >= 21) || (ay == "nisan" && gun <= 20))
                 burc = "Koç";
-                else if ((ay == 4 && gun >= 21) || (ay == 5 && gun <= 21))
+                else if ((ay == "nisan" && gun >= 21) || (ay == "mayıs" && gun <= 21))
                 burc = "Boğa";
-                else if ((ay == 5 && gun >= 22) || (ay == 6 && gun <= 22))
+                else if ((ay == "mayıs" && gun >= 22) || (ay == "haziran" && gun <= 22))
                 burc = "İkizler";
-                else if ((ay == 6 && gun >= 23) ||(ay == 7 && gun <= 22))
+                else if ((ay == "haziran" && gun >= 23) || (ay == "temmuz" && gun <= 22))
                 burc = "Yengeç";
-                else if ((ay == 7 && gun >= 23) || (ay == 8 && gun <= 22))
+                else if ((ay == "temmuz" && gun >= 23) || (ay == "ağustos" && gun <= 22))
                 burc = "Aslan";
-                else if ((ay == 8 && gun >= 23) || (ay == 9 && gun <= 22))
+                else if ((ay == "ağustos" && gun >= 23) || (ay == "eylül" && gun <= 22))
                 burc = "Başak";
-                else if ((ay == 9 && gun >= 23) || (ay == 10 && gun <= 22))
+                else if ((ay == "eylül" && gun >= 23) || (ay == "ekim" && gun <= 22))
                 burc = "Terazi";
-                else if ((ay == 10 && gun >= 23) || (ay == 11 && gun <= 21))
+                else if ((ay == "ekim" && gun >= 23) || (ay == "kasım" && gun <= 21))
                 burc = "Akrep";
-                else if ((ay == 11 && gun >= 22) || (ay == 12 && gun <= 21))
+                else if ((ay == "kasım" && gun >= 22) || (ay == "aralık" && gun <= 21))
                 burc = "Yay";
-                else if ((ay == 12 && gun >= 22) || (ay == 1 && gun <= 21))
+                else if ((ay == "aralık" && gun >= 22) || (ay == "ocak" && gun <= 21))
                 burc = "Oğlak";
                 else
                 burc = "Geçersiz tarih";
                 Console.WriteLine($"Burcunuz: {burc} burcudur.");
         #endregion
+
+        
     }
 }
